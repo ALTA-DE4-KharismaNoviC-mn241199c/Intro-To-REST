@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "a6e9bc33-0a2a-4ae5-8398-6ee31510e8f0",
+		"name": "Swapi API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36691977"
+	},
+	"item": [
+		{
+			"name": "GET Planets 1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer{{baseURLSwapi}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURLSwapi}}/api/planets/1/",
+					"host": [
+						"{{baseURLSwapi}}"
+					],
+					"path": [
+						"api",
+						"planets",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Planets 1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer{{baseURLSwapi}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURLSwapi}}/api/planets/1/",
+					"host": [
+						"{{baseURLSwapi}}"
+					],
+					"path": [
+						"api",
+						"planets",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Films 1",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer{{baseURLSwapi}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURLSwapi}}/api/films/1/",
+					"host": [
+						"{{baseURLSwapi}}"
+					],
+					"path": [
+						"api",
+						"films",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH Starships 9",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer{{baseURLSwapi}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURLSwapi}}/api/starships/9/",
+					"host": [
+						"{{baseURLSwapi}}"
+					],
+					"path": [
+						"api",
+						"starships",
+						"9",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Vehicles 4",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer{{baseURLSwapi}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURLSwapi}}/api/vehicles/4/",
+					"host": [
+						"{{baseURLSwapi}}"
+					],
+					"path": [
+						"api",
+						"vehicles",
+						"4",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
